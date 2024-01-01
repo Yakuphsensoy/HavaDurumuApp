@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Hava Durumu uygulaması (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React ile geliştirdiğim hava durumu uygulaması, [https://openweathermap.org/](OpenWeather)'dan aldığımız verileri kullanarak tasarlandı. Bu proje, hem React becerilerimi geliştirmek hem de API teknolojilerini daha derinlemesine öğrenmek amacıyla oluşturuldu. Uygulama, kullanıcıya hava durumu bilgilerini sunarken aynı zamanda görsel olarak da kullanıcı dostu bir arayüz sunmayı hedefliyor. Hava durumu verilerini çekmek için API teknolojilerini kullanmak, benim için hem pratik hem de öğretici bir deneyim sağladı. Programın şu anki görüntüsü aşağıdaki gibidir.
 
-## Available Scripts
+npm test![Ekran görüntüsü 2024-01-01 160827](https://github.com/Yakuphsensoy/HavaDurumuApp/assets/89227314/b4e6a247-aa0a-4214-8720-8c78e0fa294e)
 
-In the project directory, you can run:
+Proje terminalinde, aşağıdaki komutları çalıştırabilirsiniz:
 
-### `npm start`
+npm start
+Uygulamayı geliştirme modunda çalıştırır. Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görebilirsiniz.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Değişiklik yaptığınızda sayfa otomatik olarak yenilenecektir. Konsolda herhangi bir lint hatasını da görebilirsiniz.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Etkileşimli izleme modunda test çalıştırır. Daha fazla bilgi için test çalıştırma bölümüne bakabilirsiniz.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run build
+Uygulamayı üretim için build klasörüne oluşturur. React'i üretim modunda doğru bir şekilde birleştirir ve performans için build optimizasyonu yapar.
 
-### `npm run build`
+Build işlemi minified (küçültülmüş) ve dosya adları hash'lerini içerir. Uygulamanız dağıtıma hazırdır!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm run eject
+Not: Bu tek yönlü bir işlemdir. Bir kez eject yaptıktan sonra geri dönemezsiniz!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Eğer build aracından veya yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman eject yapabilirsiniz. Bu komut, projenizden tek bir yapılandırma bağımlılığını kaldırır.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bunun yerine, tüm yapılandırma dosyalarını ve bağımlılıkları (webpack, Babel, ESLint, vs.) doğrudan projenize kopyalar, böylece tam kontrol sahibi olursunuz. Eject yaptıktan sonra, eject dışındaki tüm komutlar hala çalışır, ancak kopyalanan komutlara işaret eder, böylece bunları özelleştirebilirsiniz. Bu noktadan sonra tamamen kendi başınızasınız.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Eject'i kullanmak zorunda değilsiniz. Hazırlanan özellik seti küçük ve orta ölçekli dağıtımlar için uygundur ve bu özelliği kullanmak zorunda hissetmemelisiniz. Ancak, bu aracın özelleştirilemez olması durumunda faydalı olmayacağını anlıyoruz.
