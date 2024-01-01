@@ -6,9 +6,8 @@ React ile geliştirdiğim hava durumu uygulaması, [https://openweathermap.org/]
 
 Proje terminalinde, aşağıdaki komutları çalıştırabilirsiniz:
 
-**npm test**
-
 **npm start**
+
 Uygulamayı geliştirme modunda çalıştırır. Tarayıcınızda http://localhost:3000 adresini açarak uygulamayı görebilirsiniz.
 
 Değişiklik yaptığınızda sayfa otomatik olarak yenilenecektir. Konsolda herhangi bir lint hatasını da görebilirsiniz.
@@ -16,11 +15,13 @@ Değişiklik yaptığınızda sayfa otomatik olarak yenilenecektir. Konsolda her
 Etkileşimli izleme modunda test çalıştırır. Daha fazla bilgi için test çalıştırma bölümüne bakabilirsiniz.
 
 **npm run build**
+
 Uygulamayı üretim için build klasörüne oluşturur. React'i üretim modunda doğru bir şekilde birleştirir ve performans için build optimizasyonu yapar.
 
 Build işlemi minified (küçültülmüş) ve dosya adları hash'lerini içerir. Uygulamanız dağıtıma hazırdır!
 
 **npm run eject**
+
 Not: Bu tek yönlü bir işlemdir. Bir kez eject yaptıktan sonra geri dönemezsiniz!
 
 Eğer build aracından veya yapılandırma seçeneklerinden memnun değilseniz, istediğiniz zaman eject yapabilirsiniz. Bu komut, projenizden tek bir yapılandırma bağımlılığını kaldırır.
