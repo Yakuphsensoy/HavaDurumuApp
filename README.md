@@ -1,8 +1,9 @@
 # Hava Durumu uygulaması (React)
 
 React ile geliştirdiğim hava durumu uygulaması, [https://openweathermap.org/](OpenWeather)'dan aldığımız verileri kullanarak tasarlandı. Bu proje, hem React becerilerimi geliştirmek hem de API teknolojilerini daha derinlemesine öğrenmek amacıyla oluşturuldu. Uygulama, kullanıcıya hava durumu bilgilerini sunarken aynı zamanda görsel olarak da kullanıcı dostu bir arayüz sunmayı hedefliyor. Hava durumu verilerini çekmek için API teknolojilerini kullanmak, benim için hem pratik hem de öğretici bir deneyim sağladı. Programın şu anki görüntüsü aşağıdaki gibidir.
+[Ekran görüntüsü 2024-01-01 160827](https://github.com/Yakuphsensoy/HavaDurumuApp/assets/89227314/b4e6a247-aa0a-4214-8720-8c78e0fa294e)
 
-npm test![Ekran görüntüsü 2024-01-01 160827](https://github.com/Yakuphsensoy/HavaDurumuApp/assets/89227314/b4e6a247-aa0a-4214-8720-8c78e0fa294e)
+npm test!
 
 Proje terminalinde, aşağıdaki komutları çalıştırabilirsiniz:
 
