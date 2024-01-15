@@ -1,7 +1,10 @@
 
+import React from "react";
+import env from "react-dotenv";
 import { useEffect, useState } from "react";
 import axios from 'axios'
 import { MdOutlineWindPower } from "react-icons/md";
+
 
 const CITIES = [
     { name: 'Sakarya', lat: 40.78, lon: 30.40, value: 'sakarya' },
